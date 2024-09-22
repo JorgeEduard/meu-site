@@ -1,0 +1,15 @@
+body {
+    background-image: url('file:///C:/Users/Windows11/Desktop/meusite/capsule_616x353.jpg');
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    color: white;
+    /* Para garantir que o texto fique legível */
+}
+
+.container {
+    background-color: rgba(0, 0, 0, 0.5);
+    /* Fundo semi-transparente */
+    padding: 20px;
+    border-radius: 8px;
+}

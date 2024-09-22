@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu Site Básico</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#">Meu Site</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">Início</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Sobre</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Contato</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="container mt-5">
+        <h1>Bem-vindo ao Meu Site!</h1>
+        <p>Este é um site básico criado com HTML, CSS e Bootstrap.</p>
+        <button class="btn btn-primary" onclick="mostrarMensagem()">Clique aqui!</button>
+
+        <hr>
+
+        <h2 id="lancamento">Lançamento do Delta Force Mobile</h2>
+        <p>O Delta Force Mobile é um jogo de tiro em primeira pessoa que promete trazer a experiência intensa da
+            franquia Delta Force para dispositivos móveis. Com gráficos impressionantes e uma jogabilidade dinâmica, os
+            jogadores poderão mergulhar em missões emocionantes e desafiadoras.</p>
+
+        <h3>Características Principais</h3>
+        <ul>
+            <li><strong>Gráficos de Alta Qualidade:</strong> O jogo utiliza tecnologia avançada para oferecer visuais
+                impressionantes, mesmo em dispositivos móveis.</li>
+            <li><strong>Jogabilidade Dinâmica:</strong> Os jogadores experimentarão ação rápida e envolvente, com
+                controles intuitivos otimizados para telas sensíveis ao toque.</li>
+            <li><strong>Personalização de Personagens:</strong> Os jogadores poderão personalizar suas armas e
+                personagens, escolhendo equipamentos e skins que se adequam ao seu estilo de jogo.</li>
+            <li><strong>Modos de Jogo Variados:</strong> Inclui modos como combate em equipe, missões solo e batalhas em
+                arenas, proporcionando diversas experiências de jogo.</li>
+        </ul>
+
+        <h3>Modos de Jogo</h3>
+        <p>O Delta Force Mobile oferece uma variedade de modos de jogo para atender a diferentes estilos de jogo:</p>
+        <ol>
+            <li><strong>Combate em Equipe:</strong> Junte-se a amigos para lutar contra outras equipes em batalhas
+                emocionantes.</li>
+            <li><strong>Missões Solo:</strong> Enfrente desafios individuais e prove suas habilidades em missões solo.
+            </li>
+            <li><strong>Batalhas em Arenas:</strong> Participe de combates rápidos em mapas menores com foco em ação
+                intensa.</li>
+        </ol>
+
+        <h3>FAQs</h3>
+        <h4>Quando será o lançamento do Delta Force Mobile?</h4>
+        <p>O lançamento está previsto para o próximo mês, e mais informações serão divulgadas em breve.</p>
+
+        <h4>O jogo será gratuito?</h4>
+        <p>Sim, Delta Force Mobile será gratuito para download, mas poderá ter compras dentro do aplicativo.</p>
+
+        <h4>Em quais plataformas o jogo estará disponível?</h4>
+        <p>O jogo estará disponível para dispositivos iOS e Android, permitindo que um grande número de jogadores se
+            junte à ação.</p>
+
+        <p>Prepare-se para enfrentar adversários de todo o mundo e provar suas habilidades em Delta Force Mobile!</p>
+    </div>
+
+    <script>
+        function mostrarMensagem() {
+            alert("Obrigado por clicar! Fique atento para mais novidades sobre Delta Force Mobile.");
+        }
+    </script>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+
+</html>
